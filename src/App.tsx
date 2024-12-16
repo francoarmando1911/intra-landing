@@ -1,10 +1,16 @@
+import Header from './components/Header';
+import SectionComponent from './components/SectionComponent';
 import './index.css';
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-400 font-bold text-4xl'>hola</h1>
+      <div className="min-h-screen bg-gray-900 text-white">
+        <Header/>
+        <SectionComponent/>
+
+      </div>
     </>
   )
 }
